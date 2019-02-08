@@ -11,7 +11,7 @@ audio[controls],canvas,video {display: inline-block; *display: inline; zoom: 1}
 
 /* BASE */
 html {height: 100%; font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%} /* Force scrollbar in non-IE and Remove iOS text size adjust without disabling user zoom */
-body {margin: 0; min-height: 100%; -webkit-font-smoothing:antialiased; font-smoothing:antialiased; text-rendering:optimizeLegibility;color: #666} /* Improve default text rendering, handling of kerning pairs and ligatures */
+body {margin: 0; min-height: 100%; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:antialiased; text-rendering:optimizeLegibility;color: #666} /* Improve default text rendering, handling of kerning pairs and ligatures */
 
 /* DEFAULT FONT SETTINGS */
 /* 16px base font size with 150% (24px) friendly, unitless line height and margin for vertical rhythm */
@@ -215,6 +215,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   border-bottom: 0px;
   -moz-border-radius: 4px 4px 0 0;
   -webkit-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
   margin-right:10px; 
 }
 
@@ -453,7 +454,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   color: #fff;
   font-weight: bold;
   font-size: 13px;
-  font-family:'Open Sans', sans-serif
+  font-family:'Open Sans', sans-serif;
   line-height: 1;
   *display:inline;
   *zoom:1;
@@ -596,6 +597,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 }
 .nostripes > span > span, .nostripes > span:after {
   -webkit-animation: none;
+  animation: none;
   background-image: none;
 }
 /* Footer */
