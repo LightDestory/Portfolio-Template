@@ -27,8 +27,8 @@ h2 {margin: 0; font-size: 2.75em; line-height: 1.3em; margin-bottom: 0.5em} /* 4
 h3 {margin: 0; font-size: 2.25em; line-height: 1.3333333333333333333333333333333em; margin-bottom: 0.6667em} /* 36px / 48px */ 
 h4 {margin: 0; font-size: 1.5em; line-height: 1em; margin-bottom: 1em} /* 24px / 24px */
 h5 {margin: 0; font-size: 1.3125em; line-height: 1.1428571428571428571428571428571em; margin-bottom: 1.1428571428571428571428571428571em} /* 21px / 24px */
-h6 {margin: 0; font-size: 2.75em; line-height: 1.2em; margin-bottom: 0.4em} /* 18px / 24px */
-h7 {margin: 0; font-size: 0.5em; line-height: 1.3em; margin-bottom: 0.5em} 
+h6 {margin: 0; font-size: 0.85em; line-height: 1.2em; margin-bottom: 0.4em} /* 18px / 24px */
+
 p, ul, blockquote, pre, td, th, label {margin: 0; font-size: 1em; line-height: 1.5em; margin-bottom: 1.5em} /* 16px / 24px */
 small, p.small {margin: 0; font-size: 0.875em; line-height: 1.7142857142857142857142857142857em; margin-bottom: 1.7142857142857142857142857142857em} /* 14px / 24px */
 
@@ -212,7 +212,6 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   box-shadow: 0px 6px #2E8B57;
   border-radius: 25px 25px 4px 4px;
 }
-
 
 .tab {
   display: inline-block;
@@ -491,7 +490,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   margin: .25em !important;
 }
 .label-info {
-  background-color: #444445E6;
+  background-color: rgba(68,68,69, 0.7);
 }
 
 .label-info[href]:hover,
@@ -550,7 +549,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   -webkit-border-radius: 4px;
   border-radius: 25px;
   margin-bottom: 1em;
-  background-color: gainsboro;
+  background-color: rgb(148, 148, 148);
 }
 .meter > span {
   display: block;
@@ -561,11 +560,10 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 
 
   position: relative;
-  overflow: hidden;
 }
 .meter > span  > span{
   margin-left: 4px;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .animate > span:after {
