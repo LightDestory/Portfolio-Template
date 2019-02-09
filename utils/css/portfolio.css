@@ -125,7 +125,6 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   margin: 0 auto;
 }
 
-
 /* Utility */
 .chromeframe {
   margin: 0.2em 0;
@@ -173,8 +172,11 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 }
 #header #logo{
   text-align: center;
-
   display: none;
+}
+
+#logo >h1{
+  font-size: 2.75em !important;
 }
 
 #logo > h4{
