@@ -1,5 +1,5 @@
-ErrorDocument 400 index.html
-ErrorDocument 401 index.html
-ErrorDocument 403 index.html
-ErrorDocument 404 index.html
-ErrorDocument 503 index.html
+ErrorDocument 400 https://www.lightdestoryweb.altervista.org/portfolio/
+ErrorDocument 401 https://www.lightdestoryweb.altervista.org/portfolio/
+ErrorDocument 403 https://www.lightdestoryweb.altervista.org/portfolio/
+ErrorDocument 404 https://www.lightdestoryweb.altervista.org/portfolio/
+ErrorDocument 503 https://www.lightdestoryweb.altervista.org/portfolio/
