@@ -1,5 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 
 *, *:before, *:after {
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
@@ -478,7 +478,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 
 /* Labels */
 .label {
-  display: inline;
+  display: inline-block !important;
   padding: .25em .6em;
   font-size: 90%;
   font-weight: 500;
@@ -488,6 +488,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: .25em;
+  margin: .25em !important;
 }
 .label-info {
   background-color: #444445E6;
