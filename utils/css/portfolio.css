@@ -167,10 +167,10 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 }
 
 /* Header */
-#header{
+.header{
   margin-bottom: 2em;
 }
-#header #logo{
+.header #logo{
   text-align: center;
   display: none;
 }
@@ -186,15 +186,17 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   margin: auto;
 }
 
-#header #helloworld{
+.header #helloworld{
   text-align: center;
-  
+  font-size: 2em !important;
+  line-height: 1.2em !important;
+  margin-bottom: 0.4em !important;
   display: none;
 }
-#header h4{
+.header h4{
   margin-bottom:0px; 
 }
-#header .visible{
+.header .visible{
   opacity: 1;
 }
 
@@ -282,36 +284,28 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 .info{
 
 }
-.info h1, #header h1{
+.info h1, .header h1, .header h2{
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: .3em;
   color: #fff;
 }
-.info h2, #header h2{
+.info h2, .header h2{
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: .2em;
   margin-top: 0.5em;
   
 }
-.info h4, #header h4{
+.info h4, .header h4{
   color: #59BD85;
   margin-bottom: 2em;
 }
-.info h6, #header h6{
+.info h6, .header h6{
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: .3em;
   color: #fff;
-}
-.info h7, #header h7{
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-bottom: .2em;
-  margin-top: 0.5em;
-  color: #fff;
-  
 }
 /* Contact */
 .main-links{
